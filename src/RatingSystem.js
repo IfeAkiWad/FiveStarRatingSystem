@@ -8,7 +8,7 @@ const RatingSystem = ( ) => {
     <div>
       <h1>5 star rating system</h1>
       <h2>Select a rating:</h2>
-        {/* created an array containing 5 indexes */}
+        {/* created an array containing an array length of 5 */}
         {[...Array(5)].map((star,index) => {
           return <button key={index} 
         /* If the indices of the stars are less or equal to the star that is clicked, 
