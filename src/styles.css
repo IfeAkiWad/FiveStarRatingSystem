@@ -1,0 +1,15 @@
+.FilledStar {
+    background-color: RGB
+    255, 195, 0;
+}
+
+.EmptyStar {
+ background-color: none;
+}
+
+button {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
