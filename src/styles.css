@@ -1,10 +1,9 @@
-.FilledStar {
-    background-color: RGB
-    255, 195, 0;
+.filled-star {
+    color: black;
 }
 
-.EmptyStar {
- background-color: none;
+.unfilled-star {
+    color: #ccc;
 }
 
 button {
