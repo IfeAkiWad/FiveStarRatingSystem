@@ -1,8 +1,4 @@
 import React, { useState } from 'react'
-// import fiveStarImg from './FiveStar';
-// import FilledStar from './assets/filled-star.svg'
-// import EmptyStar from './assets/empty-star.svg';
-
 
 const RatingSystem = ( ) => {
   // the state is initialized at the first index
