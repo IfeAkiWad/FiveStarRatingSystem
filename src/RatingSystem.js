@@ -3,6 +3,7 @@ import React, { useState } from 'react'
 const RatingSystem = ( ) => {
   // the state is initialized at the first index
     const [rating, setRating] = useState(0)
+    const [hover, setHover] = useState(0)
 
     return (
     <div>
@@ -17,8 +18,10 @@ const RatingSystem = ( ) => {
         The 5th star wouldn't fill. It's index is > than that of the forth) */
           className={index <= rating ? "filled-star" : "unfilled-star"}
         /* set the state of the rating to the index of the clicked star */
-          onClick={() => (setRating(index))
-          }>
+          onClick={() => (setRating(index))}
+          onMouseEnter={() => setHover(index)}
+          onMouseLeave={() => setHover(rating)}
+          >
           {/* HTML code for star */}
             <span className="star">&#9733;</span> 
           </button>
