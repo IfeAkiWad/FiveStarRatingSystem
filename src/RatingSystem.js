@@ -19,6 +19,7 @@ const RatingSystem = ( ) => {
           className={index <= rating ? "filled-star" : "unfilled-star"}
         /* set the state of the rating to the index of the clicked star */
           onClick={() => (setRating(index))}
+          onDoubleClick={() => (setRating(!index))}
           onMouseEnter={() => setHover(index)}
           onMouseLeave={() => setHover(rating)}
           >
@@ -29,7 +30,9 @@ const RatingSystem = ( ) => {
         })}
     </div>
   )
-    
+    // if (double clicked) {
+//    setRating(!index)
+    // }
   
 }
 
