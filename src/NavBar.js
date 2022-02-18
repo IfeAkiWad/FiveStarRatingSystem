@@ -6,7 +6,7 @@ const NavBar = () => {
         <nav className="nav">
             {/* <button class="dropbtn">Menu</button> */}
             <div>  
-                <Link id="link" to='/'> HOME</Link> 
+                <Link id="five-star-link" to='/five-star-clothing'>FIVE &#9733; CLOTHING</Link> 
                 {/* <Link id="link" to="/vacation"> VACATION</Link> 
                 <Link id="link" to="/clickers"> CLICKERS</Link> 
                 <Link id="link" to="/age-calculator"> AGE CALCULATOR</Link> 
