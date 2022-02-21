@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import ClothingComponent from './ClothingComponent'
+import FeedbackForm from './FeedbackForm'
 
 const RatingSystem = ( ) => {
   // the state is initialized at the first index
@@ -35,6 +36,7 @@ const RatingSystem = ( ) => {
               </button>
           })}
       </div>
+      <FeedbackForm />
     </div>
   )
 }
