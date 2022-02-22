@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import ClothingComponent from './ClothingComponent'
 import FeedbackForm from './FeedbackForm'
+import Footer from './Footer'
 import HrSolidLine from './HrSolidLine'
 
 const RatingSystem = ( ) => {
@@ -39,6 +40,7 @@ const RatingSystem = ( ) => {
       </div>
       <FeedbackForm />
       <HrSolidLine />
+      <Footer />
     </div>
   )
 }
