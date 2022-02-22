@@ -114,3 +114,8 @@ hr.solid {
     border-top: 1px solid grey;
     width: 115vh;
 }
+
+.footer {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
