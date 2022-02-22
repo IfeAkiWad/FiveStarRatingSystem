@@ -8,8 +8,7 @@ Implement a 5-star rating system (like you would use on Yelp or Uber). When you 
 1. Displays 5 empty stars.
 2. When you click on a star, it will fill that star and all the stars up until that one. The remaining stars stay empty.
 3. When the user hovers over a star, it will fill or highlight that star and all the stars up until that one.
-4. Make total number of stars dynamic based on a prop passed into the RatingSystem component.
-5. When the user clicks the same star twice, it resets the selected stars.
+4. When the user clicks the same star twice, it resets the selected stars.
 
 ## Running Locally
 1. The assessment requires Node 10 LTS or above. You can download & install Node.JS [here](nodejs.org/en/download/).
