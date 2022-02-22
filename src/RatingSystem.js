@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import ClothingComponent from './ClothingComponent'
 import FeedbackForm from './FeedbackForm'
+import HrSolidLine from './HrSolidLine'
 
 const RatingSystem = ( ) => {
   // the state is initialized at the first index
@@ -37,6 +38,7 @@ const RatingSystem = ( ) => {
           })}
       </div>
       <FeedbackForm />
+      <HrSolidLine />
     </div>
   )
 }
