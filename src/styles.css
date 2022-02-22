@@ -54,12 +54,35 @@ h1.rating-heading {
 
 }
 
+/* .nav {
+    position: fixed;
+    overflow: hidden;
+} */
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    /* background-color: #333; */
+}
+
+li {
+    float: left;
+}
+
 #five-star-link {
     padding-right: 0vh;
-    padding-left: 35vh;
+    padding-left: 25vh;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: larger;
 }
+
+.float-right-link {
+    float: right;
+    padding-right: 36vh;
+}
+
 
 a:link {
     text-decoration: none;
