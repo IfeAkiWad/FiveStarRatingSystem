@@ -1,17 +1,24 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import ShoppingBag from './assets/ShoppingBag.svg'
 
 const NavBar = () => {
     return (
-        <nav className="nav">
-            {/* <button class="dropbtn">Menu</button> */}
-            <div>  
-                <ul>
-                    <li>
-                        <Link id="five-star-link" to=''>FIVE&#9733;CLOTHING</Link>
-                    </li>
-                    <li className='float-right-link'>
+        <nav className="flex-container">
+            <div >  
+                
+                    <div>
+                        <Link id="five-star-link" to=''>FIVE&#9733;CLOTHING&nbsp;</Link>
+                    </div>
+                    <div>
+                        <Link className='people-links' to=''>Women</Link>
+                    </div>
+                    <div>
+                        <Link className='people-links' to=''>Men</Link>
+                    </div>
+                    <div>
+                        <Link className='people-links' to=''>Kids</Link>
+                    </div>
+                    <div className='float-right-link'>
                         <Link className="shoppin-bag" to="">
                         {/* <img className="bag" src={ShoppingBag} alt="shopping bag" /> */}
                             <svg width="24" height="24" viewBox="0 0 24 24" fill="none" 
@@ -28,8 +35,8 @@ const NavBar = () => {
                                 </path>
                             </svg>
                        </Link>
-                    </li>
-                </ul>
+                    </div>
+            
                 {/*<Link id="link" to="/clickers"> CLICKERS</Link> 
                 <Link id="link" to="/age-calculator"> AGE CALCULATOR</Link> 
                 <Link id="link" to='/timer'> TIMER</Link> 
